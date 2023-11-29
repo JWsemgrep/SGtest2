@@ -13,7 +13,7 @@ jobs:
     parameters:
       default_branch:
         type: string
-        # Replace main with the repository default branch if different.
+        # Replace main with the repository default branch if different.!
         default: main
     docker:
       - image: returntocorp/semgrep
